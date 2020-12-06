@@ -1,5 +1,9 @@
 # corenlp-docker
+Forked from [chilland/corenlp-docker](https://github.com/chilland/corenlp-docker).
+Fork status removed due to git-lfs being disabled for public forks??
+
 Dockerfile for Stanford CoreNLP Server
+
 ---------
 
 This Dockerfile builds the [Stanford CoreNLP
