@@ -16,4 +16,4 @@ RUN java -version
 EXPOSE 9000
 # TODO(Zahin): Pass in corenlp config via env variables
 # CMD java -Xmx${MEMORY} -cp '${CORENLP_HOME}/*'  edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port ${PORT} -timeout ${TIMEOUT} -threads ${DEFAULT_THREADS} -maxCharLength ${MAX_CHAR_LENGTH} -quiet ${BE_QUIET}
-CMD java -Xmx5g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
+CMD java -Xmx5g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000 -annotators openie
